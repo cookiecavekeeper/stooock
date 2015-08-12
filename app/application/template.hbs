@@ -1,3 +1,24 @@
-<h2 id="title">Welcome to Ember</h2>
+<nav>
+    <ul>
+        <li>
+            {{#link-to "home"}}<h2 id="title">Welcome to {{appName}}</h2>{{/link-to}}
+        </li>
+        <li>
+            <h2>Yo dawg</h2>
+        </li>
+        <li>
+            {{#link-to "user"}}
+                <h2>User link</h2>
+            {{/link-to}}
+        </li>
+        <li>
+            <a href="not sure">
+                <h2>Yo link here too</h2>
+            </a>
+        </li>
+    </ul>
+</nav>
 
-{{outlet}}
+<main>
+    {{outlet}}
+</main>
