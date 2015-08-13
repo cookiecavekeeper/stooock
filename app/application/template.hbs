@@ -1,24 +1,28 @@
 <nav>
-    <ul>
-        <li>
-            {{#link-to "home"}}<h2 id="title">Welcome to {{appName}}</h2>{{/link-to}}
-        </li>
-        <li>
-            <h2>Yo dawg</h2>
-        </li>
-        <li>
-            {{#link-to "user"}}
-                <h2>User link</h2>
-            {{/link-to}}
-        </li>
-        <li>
-            <a href="not sure">
-                <h2>Yo link here too</h2>
-            </a>
-        </li>
-    </ul>
+    <div class="nav-wrapper container">
+        {{#link-to "home" class="brand-logo"}}
+            Welcome to {{appName}}
+        {{/link-to}}
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+                {{#link-to "user"}}
+                    User link
+                {{/link-to}}
+            </li>
+            <li>
+                {{#link-to "user"}}
+                    User link
+                {{/link-to}}
+            </li>
+            <li>
+                {{#link-to "user"}}
+                    User link
+                {{/link-to}}
+            </li>
+        </ul>
+    </div>
 </nav>
 
-<main>
+<main class="container">
     {{outlet}}
 </main>
