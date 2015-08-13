@@ -8,26 +8,26 @@ module.exports = function(defaults) {
 
   app.import('bower_components/materialize/dist/css/materialize.css');
   app.import('bower_components/materialize/dist/js/materialize.js');
-  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.eot');
-  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.svg');
-  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.ttf');
-  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.woff');
-  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.woff2');
-  app.import('bower_components/materialize/font/roboto/Roboto-Bold.ttf');
-  app.import('bower_components/materialize/font/roboto/Roboto-Bold.woff');
-  app.import('bower_components/materialize/font/roboto/Roboto-Bold.woff2');
-  app.import('bower_components/materialize/font/roboto/Roboto-Light.ttf');
-  app.import('bower_components/materialize/font/roboto/Roboto-Light.woff');
-  app.import('bower_components/materialize/font/roboto/Roboto-Light.woff2');
-  app.import('bower_components/materialize/font/roboto/Roboto-Medium.ttf');
-  app.import('bower_components/materialize/font/roboto/Roboto-Medium.woff');
-  app.import('bower_components/materialize/font/roboto/Roboto-Medium.woff2');
-  app.import('bower_components/materialize/font/roboto/Roboto-Regular.ttf');
-  app.import('bower_components/materialize/font/roboto/Roboto-Regular.woff');
-  app.import('bower_components/materialize/font/roboto/Roboto-Regular.woff2');
-  app.import('bower_components/materialize/font/roboto/Roboto-Thin.ttf');
-  app.import('bower_components/materialize/font/roboto/Roboto-Thin.woff');
-  app.import('bower_components/materialize/font/roboto/Roboto-Thin.woff2');
+  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.eot', {destDir: 'font/material-design-icons/'});
+  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.svg', {destDir: 'font/material-design-icons/'});
+  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.ttf', {destDir: 'font/material-design-icons/'});
+  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.woff', {destDir: 'font/material-design-icons/'});
+  app.import('bower_components/materialize/font/material-design-icons/Material-Design-Icons.woff2', {destDir: 'font/material-design-icons/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Bold.ttf', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Bold.woff', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Bold.woff2', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Light.ttf', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Light.woff', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Light.woff2', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Medium.ttf', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Medium.woff', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Medium.woff2', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Regular.ttf', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Regular.woff', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Regular.woff2', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Thin.ttf', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Thin.woff', {destDir: 'font/roboto/'});
+  app.import('bower_components/materialize/font/roboto/Roboto-Thin.woff2', {destDir: 'font/roboto/'});
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
